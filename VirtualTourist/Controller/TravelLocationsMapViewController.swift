@@ -84,13 +84,9 @@ class TravelLocationsMapViewController: UIViewController {
         let pin = Pin(context: dataController.viewContext)
         pin.latitude = coordinate.latitude
         pin.longitude = coordinate.longitude
-        do {
-            try dataController.viewContext.save()
+        try? dataController.viewContext.save()
             
-            requestFlickrPhotos(by: coordinate, at: pin)
-        } catch {
-            print("error \(error.localizedDescription)")
-        }
+        requestFlickrPhotos(by: coordinate, at: pin)
     }
 
     func deselecteAnnotation() {
