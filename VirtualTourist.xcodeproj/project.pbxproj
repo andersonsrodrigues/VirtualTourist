@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E14644F2420826E00AC6F83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E14644E2420826E00AC6F83 /* Constants.swift */; };
 		9EB054F3240EE392003FECD8 /* PhotosSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB054F2240EE392003FECD8 /* PhotosSearchResults.swift */; };
 		9EB054F5240EE51A003FECD8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB054F4240EE51A003FECD8 /* UIViewController+Extension.swift */; };
 		9EB054F7240EE6C8003FECD8 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB054F6240EE6C8003FECD8 /* PhotoCollectionViewCell.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E14644E2420826E00AC6F83 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9EB054F2240EE392003FECD8 /* PhotosSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosSearchResults.swift; sourceTree = "<group>"; };
 		9EB054F4240EE51A003FECD8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		9EB054F6240EE6C8003FECD8 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9EBF8E61240D7A6500C8C236 /* VTClient.swift */,
+				9E14644E2420826E00AC6F83 /* Constants.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB054F5240EE51A003FECD8 /* UIViewController+Extension.swift in Sources */,
+				9E14644F2420826E00AC6F83 /* Constants.swift in Sources */,
 				9EB054F7240EE6C8003FECD8 /* PhotoCollectionViewCell.swift in Sources */,
 				9EBF8E62240D7A6500C8C236 /* VTClient.swift in Sources */,
 				9EBA04792411ECF20026A911 /* VirtualTourist.xcdatamodeld in Sources */,
@@ -384,6 +388,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.anderson.VirtualTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -404,6 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.anderson.VirtualTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
